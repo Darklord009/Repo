@@ -17,6 +17,16 @@ export default function Header(props) {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">About</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/register">register</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">login</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/see">see</Link>
               </li>  
             </ul>
             { props.searchBar? <form className="d-flex">
