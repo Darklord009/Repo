@@ -38,6 +38,13 @@
   padding:5px;
   border-radius:10px;
 }
+.App-order{
+  flex-direction: column;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
 
 .App-link {
   color: #61dafb;
